@@ -43,10 +43,11 @@ public class FoodCard {
         Image imgFood = null;
         try {
             imgFood = new Image(new FileInputStream(path));
+
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        ImageView imgViewFood = new ImageView(imgFood);
         imgViewFood.setFitWidth(100);
         imgViewFood.setFitHeight(100);
         HBox hBoxFoodImage = new HBox();
