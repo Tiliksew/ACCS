@@ -50,7 +50,7 @@ public class Home {
         txfSearchFood.setPromptText("Search Food");
         txfSearchFood.setStyle("-fx-text-fill:#000; -fx-background-color:white;" +
                 " -fx-background-radius:5 5 0 0; -fx-padding:9 0 ;");
-        txfSearchFood.setFocusColor(Color.web("#616161"));
+        txfSearchFood.setFocusColor(Color.web("#606060"));
         txfSearchFood.setPrefColumnCount(20);
 
         JFXComboBox<String> cBoxFilterBy = new JFXComboBox<>();
