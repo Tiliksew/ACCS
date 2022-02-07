@@ -1,20 +1,4 @@
 
-
-public class Home {
-
-    public VBox getHome(Stage primaryStage, String user) throws SQLException {
-        VBox root = new VBox(20);
-
-        // Nav bar for the main GUI //
-        HBox hBoxNav = new HBox(50);
-        final String path = "src/asset/images/fork.png";
-        Image img = null;
-        try {
-            img = new Image(new FileInputStream(path));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            //
-        }
         ImageView imageViewLogo = new ImageView(img);
         imageViewLogo.setFitWidth(50);
         imageViewLogo.setFitHeight(50);
