@@ -1,29 +1,5 @@
 
 
-    public VBox getLogIn(Stage primaryStage){
-
-        VBox root = new VBox(50);
-
-
-        Label lblSignUp = new Label("LogIn");
-        lblSignUp.setStyle("-fx-font-size:30;-fx-font-weight:bold;");
-
-
-        Label lblUsername= new Label("Username");
-        lblUsername.getStyleClass().add("bolds");
-        JFXTextField txfUsername = new JFXTextField();
-        txfUsername.setStyle("-fx-font-weight:bold;");
-        txfUsername.setPromptText("Enter Your Username");
-        txfUsername.setPrefColumnCount(25);
-        txfUsername.setLabelFloat(true);
-        txfUsername.setFocusColor(Color.web("#000"));
-        Label lblUsernameError = new Label("");
-        lblUsernameError.setStyle("-fx-text-fill:red;");
-
-        Label lblPassword= new Label("Password");
-        lblPassword.getStyleClass().add("bolds");
-
-
 
         VBox hBoxPassword = new VBox(8);
         JFXTextField txfPassword = new JFXTextField();
