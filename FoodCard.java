@@ -15,15 +15,7 @@ import java.io.FileNotFoundException;
 public class FoodCard {
 
     FoodItem foodItem = new FoodItem();
-    public FoodCard(FoodItem foodItemInput){
-        foodItem.foodId = foodItemInput.foodId;
-        foodItem.foodName = foodItemInput.foodName;
-        foodItem.foodPrice = foodItemInput.foodPrice;
-        foodItem.foodImagePath = foodItemInput.foodImagePath;
-        foodItem.cafeAvailable = foodItemInput.cafeAvailable;
-        foodItem.foodRating = foodItemInput.foodRating;
-    }
-    public HBox getFoodCard(){
+        public HBox getFoodCard(){}
         VBox root = new VBox(5);
         root.getStyleClass().add("food-cart");
         root.setMaxHeight(200);
@@ -43,10 +35,11 @@ public class FoodCard {
         Image imgFood = null;
         try {
             imgFood = new Image(new FileInputStream(path));
+
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        ImageView imgViewFood = new ImageView(imgFood);
         imgViewFood.setFitWidth(100);
         imgViewFood.setFitHeight(100);
         HBox hBoxFoodImage = new HBox();

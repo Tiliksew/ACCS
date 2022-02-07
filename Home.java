@@ -40,7 +40,7 @@ public class Home {
         ImageView imageViewLogo = new ImageView(img);
         imageViewLogo.setFitWidth(50);
         imageViewLogo.setFitHeight(50);
-        imageViewLogo.setStyle("-fx-margin:20px 0px");
+        imageViewLogo.setStyle("-fx-margin:50px 0px");
 
         Label lblAASTUCafe = new Label("AASTU Cafe Chain System");
 
