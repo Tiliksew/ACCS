@@ -3,8 +3,8 @@ package GUI;
 import com.jfoenix.controls.JFXButton;
 import javafx.geometry.Pos;
 
-import javafx.scene.layout.VBox;
 
+import javafx.scene.layout.VBox;
 public class Cart {
 
     public VBox getCart(){
