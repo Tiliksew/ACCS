@@ -2,12 +2,9 @@ package GUI;
 
 import com.jfoenix.controls.JFXButton;
 import javafx.geometry.Pos;
-import javafx.scene.Node;
-import javafx.scene.control.Label;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-this i sn
 
+
+import javafx.scene.layout.VBox;
 public class Cart {
 
     public VBox getCart(){
